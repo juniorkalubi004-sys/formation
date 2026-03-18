@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Formations - Academik</title>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'League Spartan',sans-serif;
+font-size: 23px;
+
+}
+
+body{
+
+background:white;
+color:black;
+line-height:1.6;
+}
+
+.formations{
+
+padding:100px 10%;
+font-family:'League Spartan',sans-serif;
+background-color: #faf8f84d;
+
+}
+
+
+.formations h2{
+
+font-size: 70px;
+
+}
+
+
+.card-form{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+padding:40px;
+border-bottom:1px solid #b1aeae38;
+width: 100%;
+
+}
+
+.card-desc{
+
+flex:1;
+
+}
+
+.card-title h3{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.card-desc p{
+margin-bottom:20px;
+font-family: 'League Spartan',sans-serif;
+width:600px;
+
+}
+
+.card-desc a{
+
+display:inline-block;
+margin-top:10px;
+text-decoration:none;
+color:white;
+background:black;
+padding:12px 24px;
+transition:0.3s;
+
+}
+
+.card-desc a:hover{
+
+background:#333;
+
+}
+
+.card-img{
+
+flex:1;
+
+}
+
+.card-img img{
+width: 500px;
+max-width:450px;
+border-radius:10px;
+object-fit:cover;
+
+}
+
+
+/* Responsive mobile */
+@media (max-width:999px){
+    /* enlever les marges globales */
+body{
+margin:0;
+padding:0;
+}
+.formations{
+margin: 30px;;
+padding:0;
+}
+
+
+.card-form{
+flex-direction:column;
+margin-left:30px;
+margin-right: 30px;
+padding:0;
+}
+
+/* container */
+.cards-form{
+margin-left:30px;
+margin-right: 30px;
+padding:0;
+}
+
+.card-desc{
+    margin-left:30px;
+margin-right: 30px;
+    width:400px;
+    order:2;
+}
+
+.card-desc p{
+    width:100%;
+  
+margin-right: 40px;
+}
+
+.card-img{
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.card-img img{
+    width:100%;
+    max-width:400px;
+}
+
+}
+   
+
+</style>
+</head>
+
+<body>
+
+
+<header>
+<a href="index.html" class="logo">
+     <img src="images/Cream_Black_Typography_Loop_Brand_Logo-removebg-preview (1).png" alt="Academic logo">
+</a>
+
+    <button class="nav-toggle" aria-label="Ouvrir le menu">
+     <span class="hamburger"></span>
+    </button>
+
+<nav>
+<a href="index.html">Accueil</a>
+<a href="formations.html">Formations</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="formations">
+
+<h2>Nos Formations</h2>
+
+
+<div class="cards-form">
+
+<div class="card-form">
+<div class="card-desc">
+
+<div class="card-title">
+<h3>Microsoft Office</h3>
+</div>
+
+<p>Formation complète bureautique.</p>
+
+<p>
+Devenez un expert des outils qui font tourner le monde professionnel.
+Nous vous accompagnons dans la maîtrise complète de la Suite Office
+(Excel avancé, Word, PowerPoint) et des solutions collaboratives
+comme Microsoft 365 et Teams.
+</p>
+
+<a class="btn" href="microsoft.html">Voir programme</a>
+
+</div>
+
+
+<div class="card-img">
+<img src="images/file_00000000838871f5baf4f0edb99ecd4b.png" alt="Microsoft Office">
+</div>
+
+</div>
+
+<div class="card-form">
+    <div class="card-desc">
+<div class="card-title">
+<h3>Développement Web</h3>
+</div>
+
+<p>De débutant à développeur professionnel.</p>
+<p>Apprenez à bâtir le web de demain. Du Front-end (HTML5, CSS3, JavaScript) 
+au Back-end, nos formations couvrent les langages et frameworks les plus 
+demandés. Que vous souhaitiez créer des sites vitrines élégants ou des applications web complexes, 
+    nous vous donnons les clés techniques pour coder
+     avec rigueur et efficacité.</p>
+
+
+<a class="btn" href="web.html">Voir programme</a>
+</div>
+
+
+<div class="card-img">
+<img src="images/REACT.png" alt="react js">
+<img src="images/HTML.jpg" alt="react js">
+
+</div>
+
+</div>
+
+<div class="card-form">
+    <div class="card-desc">
+        <div class="card-title">
+
+      <h3>Design Graphique</h3>
+        </div>
+
+<p>Création graphique moderne.</p>
+
+<p> Donnez vie à vos idées et apprenez à communiquer par l'image.
+ Maîtrisez les outils de la suite Adobe (Photoshop, Illustrator, InDesign) 
+ ou les nouveaux standards du design d'interface (UI/UX Design avec Figma). 
+ Nous formons votre regard critique et votre créativité pour 
+concevoir des supports visuels percutants et professionnels. </p>
+
+<a class="btn" href="design.html">Voir programme</a>
+
+</div>
+
+
+<div class="card-img">
+<img src="images/Canva-logo.png" alt="canva">
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 - Tous droits réservés</p>
+<a href="index.html" class="logo">
+    <img src="images/Cream_Black_Typography_Loop_Brand_Logo-removebg-preview (1).png" alt="Academic logo">
+</a>
+
+<div class="social-icons">
+    <a href="https://wa.me/243818373375" aria-label="WhatsApp" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/whatsapp" alt="WhatsApp logo">
+    </a>
+    <a href="https://instagram.com/junior.kalubi.14" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/instagram" alt="Instagram logo">
+    </a>
+    <a href="https://facebook.com/juniorkalubi" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.simpleicons.org/facebook" alt="Facebook logo">
+    </a>
+</div>
+
+</footer>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
